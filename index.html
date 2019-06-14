@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./js/project.js"></script>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper-card">
+            <div class="card-head">
+                <div class="card-tab card-information active" data-tab-id='tab1'>
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file-alt"
+                        class="svg-inline--fa fa-file-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512">
+                        <path fill="currentColor"
+                            d="M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0 21.5 21.5 0 48 0h204.1C264.8 0 277 5.1 286 14.1L369.9 98c9 8.9 14.1 21.2 14.1 33.9zm-128-80V128h76.1L256 51.9zM336 464V176H232c-13.3 0-24-10.7-24-24V48H48v416h288z">
+                        </path>
+                    </svg>
+                    <h1>information</h1>
+                </div>
+                <div class="card-tab card-rating" data-tab-id="tab2">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heartbeat"
+                        class="svg-inline--fa fa-heartbeat fa-w-16 svg-heart" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z">
+                        </path>
+                    </svg>
+                    <h1>rating info</h1>
+                </div>
+                <div class="card-tab card-buy" data-tab-id="tab3">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart"
+                        class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512">
+                        <path fill="currentColor"
+                            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z">
+                        </path>
+                    </svg>
+                    <h1>where to buy</h1>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-body-information content-tab active" id='tab1'>
+                    <div class="card-body__picture">
+                        <img src="./img/farcry.png" alt="image" class="information__image-farcry">
+                        <img src="./img/star1.png" alt="image" class="card-body__img-star">
+                    </div>
+                    <div class="card-body__content">
+                        <img src="./img/procent.png" alt="image" class="card-body__img-procent">
+                        <h2 class="card-body__title">FarCry 4</h2>
+                        <p class="card-body__date">First Released Nov 17, 2014</p>
+                        <p class="card-body__text">In Far Cry 4, players find themselves in Kyrat, a breathtaking,
+                            perilous and wild region of the Hima layas struggling under the regime of a despotic
+                            self-appointed king.</p>
+                        <div class="card-body-information-footer">
+                            <div class="card-body-information-price">
+                                <p class="information-offer">20% OFF!</p>
+                                <p class="information-price">$59.96</p>
+                            </div>
+                            <div class="card-body__btn-buy">
+                                <input type="button" value="BUY IT NOW" class="btn-buy btn-buy--green">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body-rating content-tab" id='tab2'>
+                    <div class="card-body__picture-rating">
+                        <img src="./img/rating.png" alt="image" >
+                    </div>
+                    <div class="card-body__content-rating">
+                        <p class="card-body__text">
+                            PLATFORM: PlayStation 3, Xbox 360
+                            <br><br><br>
+                            CONTENT DESCRIPTION: Blood, Intense Violence, Nudity, Sexual Themes, Strong Language, Use of
+                            Drugs
+                            <br><br><br>
+                            RATING SUMMARY: This is a first-person shooter in which players assume the role of a man
+                            (Ajay Ghale) returning to his ancestral home to spread his mother's ashes. Players engage in
+                            a variety of frenetic combat missions and use machine guns, pistols, shotguns, knives, and
+                            explosives to kill enemy fighters amid mountainous environments.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-body-buy content-tab"  id='tab3'>
+                    <h1 card-body-buy-title>You can find our shop on this map:</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.461477636245!2d-73.98486767347265!3d40.75187380624569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259aa51a3ec49%3A0xfd91cfa4d3bca7e8!2zMTAyNiA2dGggQXZlLCBOZXcgWW9yaywgTlkgMTAwMTgsINCh0KjQkA!5e0!3m2!1sru!2sua!4v1560492970326!5m2!1sru!2sua"
+                        width="100%" height="330" frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
